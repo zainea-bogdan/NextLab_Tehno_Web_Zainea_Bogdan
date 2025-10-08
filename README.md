@@ -6,11 +6,23 @@ It’s a place where I practice, test, and document my progress as I move throug
 
 ## Progress by Seminar
 
-### Seminar 0 — Introduction
+### Seminar 1 — Introduction
 
 - Learned how to set up a project using **Git** and **GitHub** for version control.
 - Installed and configured **Node.js** and **Express** from the command line.
 - Built a simple **Node.js server** and created custom **GET requests** to interact with it locally.
+
+---
+
+### Seminar 2 — Intro to JS
+
+- Learned how to use **arrow functions** for cleaner syntax.
+- Practiced **control flow structures** in JavaScript, including:
+  - `if` statements
+  - `for` loops
+- Worked with **variadic functions** (functions that accept variable numbers of arguments).
+- Learned to **read parameters from the command line**.
+- Practiced handling **arrays** and **objects** in JavaScript.
 
 ---
 
