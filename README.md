@@ -26,4 +26,17 @@ It’s a place where I practice, test, and document my progress as I move throug
 
 ---
 
+### Seminar 3 — Functions and Arrays
+
+- Learned how to work with **higher-order functions** such as:
+  - `filter()`
+  - `map()`
+  - `replace()`
+  - `reduce()`
+- Practiced **overloading and customizing** built-in array methods like `map()`.
+- Used **regular expressions (regex)** to modify strings based on specific criteria.
+- Explored techniques for **manipulating arrays of objects** effectively.
+
+---
+
 > _This repo is mainly for exploration and hands-on learning , expect plenty of trial, error, and iteration along the way! But don t forget to have fun_
