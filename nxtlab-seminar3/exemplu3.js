@@ -1,7 +1,7 @@
 const formatString = (s, ...format) => {
   let modified = s;
   for (let i = 0; i < format.length; i++) {
-    if (modified.indexOf("{" + format[i] + "}") !== -1) {
+    if (modified.includes("{" + format[i] + "}")) {
       modified = modified.replace("{" + format[i] + "}", format[i + 2]);
     }
   }

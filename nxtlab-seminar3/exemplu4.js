@@ -1,11 +1,11 @@
 const sampleArray = [1, 2, 3, 4, 5];
 
 const reduce = (array, transformation) => {
-  let result = 0;
+  let result = 1;
   for (const element of array) {
-    result = result + transformation(element);
+    result = transformation(result, element);
   }
   return result;
 };
 
-console.log(reduce(sampleArray, (x) => x));
+console.log(reduce(sampleArray, (x, y) => x + y));

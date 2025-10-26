@@ -1,5 +1,5 @@
 const calculate_sum = (numbers, div) => {
-  return squareDimensions
+  return numbers
     .filter((no) => no % div === 0)
     .reduce((prev, current) => {
       return prev + current;
