@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meniu Orizontal</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: serif;
+      }
+
+      .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .navbar li {
+        margin-right: 5px;
+      }
+
+      .navbar li a {
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        min-width: 80px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .navbar li a:hover {
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#articles">Articles</a></li>
+    </ul>
+  </body>
+</html>
