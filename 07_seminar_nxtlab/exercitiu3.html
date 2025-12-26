@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Chess Table</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 40px;
+        background-color: #5d5d5d;
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+      }
+
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(8, 50px);
+        border: 5px solid #333;
+      }
+
+      .top,
+      .bottom {
+        grid-column: span 8;
+        background-color: #333;
+        color: white;
+      }
+
+      .wrapper-inner {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+      }
+
+      .box {
+        width: 50px;
+        height: 50px;
+        background-color: #eee;
+      }
+      .wrapper > .box:nth-child(16n + 2),
+      .wrapper > .box:nth-child(16n + 4),
+      .wrapper > .box:nth-child(16n + 6),
+      .wrapper > .box:nth-child(16n + 8),
+      .wrapper > .box:nth-child(16n + 11),
+      .wrapper > .box:nth-child(16n + 13),
+      .wrapper > .box:nth-child(16n + 15),
+      .wrapper > .box:nth-child(16n + 17) {
+        background: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top">
+        <div class="wrapper-inner">
+          <div class="box-inner">A</div>
+          <div class="box-inner">B</div>
+          <div class="box-inner">C</div>
+          <div class="box-inner">D</div>
+          <div class="box-inner">E</div>
+          <div class="box-inner">F</div>
+          <div class="box-inner">G</div>
+          <div class="box-inner">H</div>
+        </div>
+      </div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="bottom">
+        <div class="wrapper-inner">
+          <div class="box-inner">A</div>
+          <div class="box-inner">B</div>
+          <div class="box-inner">C</div>
+          <div class="box-inner">D</div>
+          <div class="box-inner">E</div>
+          <div class="box-inner">F</div>
+          <div class="box-inner">G</div>
+          <div class="box-inner">H</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

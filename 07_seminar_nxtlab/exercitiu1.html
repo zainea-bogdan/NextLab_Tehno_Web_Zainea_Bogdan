@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Flex E1</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        font-family: sans-serif;
+        padding: 32px;
+        color: white;
+      }
+
+      .container {
+        background-color: #c21322;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        height: 100%;
+      }
+
+      .column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .column-item {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+
+      .column-item:hover {
+        background-color: white;
+        color: #c21322;
+        cursor: pointer;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+      </div>
+      <div class="column">
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+      </div>
+      <div class="column">
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+      </div>
+    </div>
+  </body>
+</html>
